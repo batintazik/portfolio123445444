@@ -250,7 +250,7 @@
         .project-link.secondary { background: rgba(255,255,255,0.05); color: var(--text-secondary); }
         .project-link.secondary:hover { background: rgba(255,255,255,0.1); color: var(--text-primary); }
 
-        /* ===== PHOTO GRID (для TinkerCAD) ===== */
+        /* ===== PHOTO GRID ===== */
         .photo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
         .photo-item {
             display: block; border-radius: 12px; overflow: hidden;
@@ -505,23 +505,18 @@
                     <h3>Работы в TinkerCAD</h3>
                     <p>3D-модели и схемы цепей, созданные в Autodesk TinkerCAD.</p>
                     <div class="project-tech"><span class="tech-tag">3D Моделирование</span><span class="tech-tag">Схемы</span><span class="tech-tag">TinkerCAD</span></div>
-
                     <div class="photo-grid">
-                        <!-- Фото 1 -->
-                        <a href="https://www.tinkercad.com/dashboard/designs/all" class="photo-item" target="_blank" rel="noopener noreferrer">
-                            <img src="1 фото.PNG" alt="TinkerCAD работа 1">
+                        <a href="https://www.tinkercad.com/ВАШ_ПРОЕКТ_1" class="photo-item" target="_blank" rel="noopener noreferrer">
+                            <img src="https://via.placeholder.com/400x300/0ea5e9/ffffff?text=TinkerCAD+1" alt="TinkerCAD работа 1">
                             <div class="photo-overlay"><span>🔗</span></div>
                         </a>
                         <div class="photo-label">Модель 1</div>
-
-                        <!-- Фото 2 -->
-                        <a href="https://www.tinkercad.com/dashboard/designs/all" class="photo-item" target="_blank" rel="noopener noreferrer">
-                            <img src="1 ГОД.PNG" alt="TinkerCAD работа 2">
+                        <a href="https://www.tinkercad.com/ВАШ_ПРОЕКТ_2" class="photo-item" target="_blank" rel="noopener noreferrer">
+                            <img src="https://via.placeholder.com/400x300/6366f1/ffffff?text=TinkerCAD+2" alt="TinkerCAD работа 2">
                             <div class="photo-overlay"><span>🔗</span></div>
                         </a>
                         <div class="photo-label">Модель 2</div>
                     </div>
-
                     <div class="project-links">
                         <a href="https://www.tinkercad.com" class="project-link primary" target="_blank">🌐 TinkerCAD</a>
                         <a href="https://www.tinkercad.com/dashboard" class="project-link secondary" target="_blank">📂 Все работы</a>
@@ -529,21 +524,35 @@
                 </div>
             </div>
 
-            <!-- Project Year 1 - 2 -->
-            <div class="project-card reveal" data-year="1" onclick="openModal(this)">
-                <div class="project-image"><div class="overlay">🌐</div><span class="project-year-badge">1 год</span><span class="project-category-badge badge-sites">Сайты</span></div>
+            <!-- Личный Блог — ✅ РАБОЧАЯ ССЫЛКА -->
+            <div class="project-card reveal" data-year="1">
+                <div class="project-image">
+                    <div class="overlay">🌐</div>
+                    <span class="project-year-badge">1 год</span>
+                    <span class="project-category-badge badge-sites">Сайты</span>
+                </div>
                 <div class="project-info">
                     <h3>Личный Блог</h3>
                     <p>Первый сайт-визитка с адаптивным дизайном.</p>
                     <div class="project-tech"><span class="tech-tag">HTML</span><span class="tech-tag">CSS</span><span class="tech-tag">JS</span></div>
                     <div class="project-links">
-                        <a href="https://ВАША_ССЫЛКА_3" class="project-link primary" target="_blank">🔗 Сайт</a>
-                        <a href="https://ВАША_ССЫЛКА_4" class="project-link secondary" target="_blank">📂 GitHub</a>
+                        <a href="https://batintazik.github.io/portfolio/%D0%BF%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE.html" 
+                           class="project-link primary" 
+                           target="_blank" 
+                           rel="noopener noreferrer">
+                            🔗 Открыть сайт
+                        </a>
+                        <a href="https://github.com/batintazik" 
+                           class="project-link secondary" 
+                           target="_blank" 
+                           rel="noopener noreferrer">
+                            📂 GitHub
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <!-- Project Year 1 - 3 -->
+            <!-- Первая 2D Игра -->
             <div class="project-card reveal" data-year="1" onclick="openModal(this)">
                 <div class="project-image"><div class="overlay">🎮</div><span class="project-year-badge">1 год</span><span class="project-category-badge badge-games">Игры</span></div>
                 <div class="project-info">
@@ -557,7 +566,7 @@
                 </div>
             </div>
 
-            <!-- Project Year 1 - 4 -->
+            <!-- Генератор Паролей -->
             <div class="project-card reveal" data-year="1" onclick="openModal(this)">
                 <div class="project-image"><div class="overlay">🎨</div><span class="project-year-badge">1 год</span><span class="project-category-badge badge-other">Другое</span></div>
                 <div class="project-info">
@@ -571,7 +580,7 @@
                 </div>
             </div>
 
-            <!-- Project Year 1 - 5 -->
+            <!-- Калькулятор -->
             <div class="project-card reveal" data-year="1" onclick="openModal(this)">
                 <div class="project-image"><div class="overlay">📱</div><span class="project-year-badge">1 год</span><span class="project-category-badge badge-other">Другое</span></div>
                 <div class="project-info">
@@ -917,7 +926,7 @@
                 <button type="submit" class="submit-btn">🚀 Отправить сообщение</button>
             </form>
             <div class="contact-links reveal">
-                <a href="https://github.com/ВАШ_НИК" class="contact-link" title="GitHub" target="_blank">📂</a>
+                <a href="https://github.com/batintazik" class="contact-link" title="GitHub" target="_blank">📂</a>
                 <a href="https://t.me/ВАШ_НИК" class="contact-link" title="Telegram" target="_blank">✈️</a>
                 <a href="#" class="contact-link" title="Discord">🎧</a>
                 <a href="#" class="contact-link" title="YouTube">📺</a>
@@ -1052,7 +1061,7 @@
 
         // ===== MODAL =====
         function openModal(card) {
-            if (card.querySelector('.photo-item')) return; // Не открывать модал для фото
+            if (card.querySelector('.photo-item')) return;
             const title = card.querySelector('h3').textContent, 
                   desc = card.querySelector('.project-info p').textContent, 
                   techs = card.querySelectorAll('.tech-tag'),
